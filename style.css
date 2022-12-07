@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-primary: 'Dosis', sans-serif;
+  --ff-secondy: 'Open Sans', sans-serif;
+
+  --color-txt-span: #3F3D56;
+  --color-span: #EE24FF;
+  --color-text: #828282;
+}
+
+main {
+  max-width: 102.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 54.6rem;
+  height: 48.6rem;
+  margin: 6.4rem auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--ff-primary);
+  color: var(--color-txt-span);
+  font-size: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.destiny {
+  color: var(--color-span);
+}
+
+p {
+  font-family: var(--ff-secondy);
+  color: var(--color-text);
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  
+}
+
+span {
+  color: var(--color-txt-span);
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-txt-span);
+  font-weight: bold;
+  align-items: center;
+  margin-right: 4.2rem;
+}
+
+img {
+  margin-top: 4rem;
+}
